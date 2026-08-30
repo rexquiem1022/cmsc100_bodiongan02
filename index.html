@@ -10,16 +10,16 @@
    <body id="top">
     <nav>
     <div class="nav_wrap" >
-        <img src=deltarune_logo.png" alt="logo" class="nav_logo">
-        <div class="nav_bar">
+        <img id="logo" src="deltarune_logo.png" alt="logo" class="nav_logo" width="100" height="100">
+        <div class="nav_bar" style="flex: 1">
           <div class="flex-item" style="flex: 1">
-              <a href="#feat-photo">Featured Photo</a> |
+              <a href="#feat-photo" alt="Jobmart">Featured Photo</a> 
           </div>
           <div class="flex-item" style="flex: 1">
               <a href="#prev-projs">Previous Projects</a>
           </div> 
-      |   <div class="flex-item" style="flex: 1">
-              <a href="#skills">Skills</a> |
+          <div class="flex-item" style="flex: 1">
+              <a href="#skills">Skills</a> 
           </div>
           <div class="flex-item" style="flex: 1">
               <a href="#autobio">Autobiography</a>
@@ -27,24 +27,43 @@
         </div>
     </div>
     </nav>
-    <hr>
     
     <div class="sections">
       <section id="feat-photo">
         <h2>Featured Photo</h2>
-        <img src="feat_photo.png" alt="my girl and I with Jobert" width="300" height="400">
+        <img src="feat_photo.png" width="1280" height="720">
       </section>
       
       <section id="prev-projs">
         <h2>Previous Projects</h2>
+        <div class="projects-combo1">
+          <img id="proj1" src="typing_game1.png" alt="proj1">
+          <img id="proj2" src="typing_game2.png" alt="proj2">
+        </div>
+        <div class="projects-combo2">
+          <img id="proj3" src="simplex.png" alt="proj3">
+          <img id="proj4" src="mlst.png" alt="proj4">
+        </div>
       </section>
       
-      <section id="skills">
-        <h2>Skills</h2>
-      </section>
-      
-      <section id="autobio">
-        <h2>Autobiography</h2>
+      <section class="section-combo">
+        <section id="skills" style="flex: 1">
+          <h2 id="skill_title">Skills</h2>
+          <h4>
+          ‣ Sufficent foundational knowledge on techniques to implement web programming. <br> 
+          ‣ Disciplined work ethic for upscaled projects <br> 
+          ‣ Knowledgeable about programming languages commonly used in wed development <br> 
+          ‣ Experience with app development through Java <br>
+          ‣ Adaptable to sudden changes in environment and project specifications. 
+          </h4>
+        </section>
+        
+        <section id="autobio" style="flex: 1">
+          <h2>Autobiography</h2>
+          <h4>
+          ‣ Jmil Anchelo Bodiongan is currently a Computer Science student from the University of the Philippines Los Baños and is in his junior year. At the time of writing, he is 19 years of age, being born on October 22, 2006, receiving his high school education from Taguig Science High School. He currently is not affiliated to any university organizations, as well as any fraternities. However, his point of interests mostly fall within fields of research which align toward cybersecurity or game development.
+          </h4>
+        </section>
       </section>
       <hr>
     </div>
@@ -53,7 +72,7 @@
       <p>jnbodiongan1@up.edu.ph<br>
       Batong Malake, 4030 Los Banos Laguna<br>
       2026 Jmil Bodiongan<br>
-      <a href="#top">Back to Top</a></p>
+      <a id="btt" href="#top">Back to Top</a></p>
     </footer>
     
    <body>

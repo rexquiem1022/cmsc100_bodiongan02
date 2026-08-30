@@ -1,31 +1,130 @@
-.flex-item {
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-}
-
-.top {
+body {
     background-color: black ;
-    background-image: url('titan_fountain.gif'), url('titan_fountain.gif');
-    background-position: left center, right center;
+    background-image: url('background.webp');
+    background-size: 100%;
+    background-position: center top;
     background-repeat: no-repeat, no-repeat;
     background-attachment: fixed, fixed;
+    color: white;
+    margin: 0;
+    font-family: 'deltafont';
 
+}
+
+@font-face{
+    font-family: 'deltafont';
+    src: url('8bitoperator.otf') format('opentype');
+}
+
+#btt:visited {
+    color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+#logo {
+    padding-left: 200px;
 }
 
 .nav_wrap {
+    background-color: black;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-right: 1100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 37px;
+    color: white;
+}
+
+.nav_bar {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    font-family: 'deltafont';
 }
 
 .sections {
     text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
 }
 
-.flex-container {
+.section-combo {
     display: flex;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #140126;
     flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 50px 100px 100px 100px;
+}
+
+.projects-combo1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 375px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.projects-combo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 375px;
+}
+
+
+#auto_title {
+    text-align: center;
+}
+
+#auto {
+    text-align: left;
+}
+
+#skill_title {
+    text-align: center;
+}
+
+#skills {
+    text-align: left;
+    margin-right: auto;
+}
+
+#proj1 {
+    width: 950px;
+    height: auto;
+}
+
+#proj2 {
+    width: 950px;
+    height: auto;
+}
+
+#proj3 {
+    width: 950px;
+    height: auto;
+}
+
+#proj4 {
+    width: 950px;
+    height: auto;
+}
+
+footer {
+    padding-left: 100px;
 }
