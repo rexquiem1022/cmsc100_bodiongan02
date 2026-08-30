@@ -1,5 +1,5 @@
 body {
-    background-image: url("media/background.webp");
+    background-image: url("media/background.png");
     background-size: 100%;
     background-position: center top;
     background-repeat: no-repeat;
@@ -65,7 +65,7 @@ a:hover {
     align-items: flex-start;
     justify-content: space-between;
     gap: 100px;
-    padding: 50px 100px 100px 100px;
+    padding: 50px 100px 100px 150px;
 }
 
 .projects-combo1 {
