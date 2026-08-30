@@ -1,10 +1,9 @@
 body {
-    background-color: black ;
-    background-image: url('background.webp');
+    background-image: url("https://deltarune.wiki/images/IMAGE_DEPTH_Ch1_Intro.webp?cb=a9nusq&h=thumb.php&f=IMAGE_DEPTH_Ch1_Intro.webp");
     background-size: 100%;
     background-position: center top;
-    background-repeat: no-repeat, no-repeat;
-    background-attachment: fixed, fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
     margin: 0;
     font-family: 'deltafont';
