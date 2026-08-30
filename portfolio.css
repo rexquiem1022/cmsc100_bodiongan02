@@ -4,6 +4,15 @@
     border-color: black;
 }
 
+#top {
+    background-color: black ;
+    background-image: url('titan_fountain.gif'), url('titan_fountain.gif');
+    background-position: left center, right center;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed, fixed;
+
+}
+
 .nav_bar {
     display: flex;
     flex-direction: row;
@@ -11,6 +20,10 @@
     border-width: 3px;
     border-color: #140126;
     flex-direction: row;
+}
+
+.sections-div {
+    text-align: center;
 }
 
 .flex-container {
