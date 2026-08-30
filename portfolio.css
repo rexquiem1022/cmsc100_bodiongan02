@@ -4,7 +4,7 @@
     border-color: black;
 }
 
-#top {
+.top {
     background-color: black ;
     background-image: url('titan_fountain.gif'), url('titan_fountain.gif');
     background-position: left center, right center;
